@@ -1,0 +1,26 @@
+version: 1.0.0
+
+id: colophon-schema
+
+about:
+  title: Colphon Schema
+  description: Standarized project metadata to specify the components, constructs and authorship of software.
+
+contacts:
+  humans: 
+    - Some human <a.human@something.com>
+  teams:
+    - Team 1
+    - Team 2
+
+schedule:
+  launch: 2018-05-24T05:00:00.000Z
+
+environments:
+  - type: git
+    title: Source Code
+    uri: https://github.com/ahmadnassri/colophon
+
+references:
+  - title: Documentation
+    uri: https://github.com/ahmadnassri/colophon
